@@ -36,19 +36,6 @@ section[id], footer { scroll-margin-top: 0; }
 .btn-ink:hover { background: var(--wine); }
 .btn:active { transform: scale(.96); }
 
-/* Màn mật khẩu */
-.gate { position: fixed; inset: 0; z-index: 300; display: flex; flex-direction: column; justify-content: center; gap: 18px; padding: 24px clamp(16px, 8vw, 120px); background: var(--wine); color: #fff; overflow-y: auto; }
-.gate-star { width: 44px; fill: var(--gold); }
-.gate-title { font: 800 clamp(40px, 8vw, 120px)/.95 var(--font-display); letter-spacing: -.05em; text-transform: uppercase; }
-.gate-form { margin-top: 10px; max-width: 520px; }
-.gate-form[hidden] { display: none; }
-.gate-form label { display: block; font-weight: 700; margin-bottom: 8px; }
-.gate-row { display: flex; gap: 8px; }
-.gate-row input { flex: 1; min-width: 0; min-height: 52px; padding: 0 16px; border: 0; border-radius: 0; background: var(--paper); color: var(--ink); font: 500 17px var(--font-text); }
-.gate-btn { min-height: 52px; padding: 0 24px; background: var(--ink); color: #fff; font-weight: 700; white-space: nowrap; transition: background-color .2s; }
-.gate-btn:hover { background: #000; }
-.gate-error { min-height: 1.55em; margin-top: 8px; color: var(--gold); font-weight: 500; }
-
 /* Màn tải */
 .loader { display: none; }
 html.js .loader { position: fixed; inset: 0; z-index: 90; display: flex; flex-direction: column; justify-content: center; align-items: center; background: var(--paper); color: var(--ink); padding: 0 16px; }
